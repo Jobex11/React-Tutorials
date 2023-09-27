@@ -1,0 +1,414 @@
+/* =====  GLOBAL VARIABLES ====  */
+
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+:root {
+  /*  NAVBAR */
+  --hover-nav: rgb(92, 70, 181);
+  /* MAINCONTENT */
+  /* FOOTER */
+  --light-background-color-nav: rgb(255, 255, 255);
+  --light-background-color-main: rgb(240, 240, 244);
+  --light-background-color-footer: rgb(240, 240, 244);
+  --light-color-nav: rgb(86, 86, 93);
+  --light-color-main: rgb(240, 240, 244);
+  --light-color-footer: rgb(240, 240, 244);
+  --dark-background-color-nav: rgb(60, 60, 74);
+  --dark-background-color-main: rgb(60, 60, 74);
+  --dark-background-color-footer: rgb(60, 60, 74);
+  --dark-color-nav: rgb(60, 60, 74);
+  --dark-color-main: rgb(60, 60, 74);
+  --dark-color-footer: rgb(60, 60, 74);
+  --btn-success: rgb(12, 91, 12);
+  --btn-primary: rgb(92, 70, 181);
+  --btn-warning: rgb(135, 92, 14);
+  --btn-danger: rgb(92, 16, 16);
+  --primary-color: rgb(5, 65, 65);
+  --secondary-color: rgb(248, 248, 248);
+  --light-icon-color: ;
+  --dark-icon-color: ;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: white;
+  height: auto;
+  width: 100%;
+}
+h1 {
+  font-family: ;
+  font-weight: 700;
+}
+h2 {
+  font-family: ;
+  font-family: ;
+}
+h3 {
+  font-weight: 300;
+}
+h4 {
+  font-weight: 200;
+}
+h5 {
+  font-family: 100;
+}
+.container {
+  background-color: blue;
+}
+.body {
+  background-color: red;
+}
+.btn {
+}
+.btn-success {
+}
+.btn-danger {
+}
+image {
+}
+.cover {
+  position: relative;
+  background-color: ;
+  color: ;
+}
+/* Sections */
+/* Nav */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--light-background-color-nav);
+  color: var(--light-color-nav);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 5px black;
+}
+.titletwelve {
+  color: var(--hover-nav);
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: -3px;
+  font-family: monospace;
+}
+.titlenews {
+  letter-spacing: -3px;
+  font-family: Georgia;
+}
+.titlepaper {
+  letter-spacing: -3px;
+  font-family: Georgia;
+}
+
+/* Reset default list styles */
+.navbar ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  display: flex; /* Display list items horizontally */
+  font-weight: 500;
+}
+.navbar li {
+  padding: 10px 10px;
+}
+.navbar a {
+  padding: 5px;
+  text-decoration: none;
+  color: var(--light-color-nav);
+}
+/* Style navigation links on hover */
+.navbar a:hover {
+  border-radius: 5px;
+  color: var(--light-background-color-nav);
+  background-color: var(--hover-nav);
+}
+.subcribe {
+  background-color: var(--btn-success);
+  color: var(--light-background-color-nav);
+  padding: 7px;
+  border-radius: 5px;
+  border: ;
+}
+a:hover .subcribe {
+  background-color: var(--btn-warning);
+}
+.line {
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  display: block;
+}
+.navtools {
+  position: relative;
+  background-color: var(--light-background-color-nav);
+  color: var(--light-color-nav);
+  width: 100%;
+  height: 10rem;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.react {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.react .love {
+  border-radius: 50%;
+  padding: 7px;
+  background-color: red;
+  color: white;
+  margin: 5px;
+  box-shadow: 0 0 3px rgb(36, 36, 44);
+  transition: transform 0.5s;
+}
+.react .like {
+  border-radius: 50%;
+  padding: 7px;
+  background-color: blue;
+  color: white;
+  margin: 5px;
+  box-shadow: 0 0 3px black;
+  transition: transform 0.5s;
+}
+.love:hover,
+.like:hover {
+  transform: rotate(360deg);
+}
+
+/* serch button */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#search-input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none; /* Remove the default focus border */
+}
+#search-button {
+  padding: 10px 20px;
+  background-color: #4285f4; /* Google blue color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#search-button:hover {
+  background-color: #357ae8;
+}
+
+/* ==============    MAINCONTENT   =================  */
+
+.maincontent {
+  padding: 20px;
+  background-color: rgb(217, 217, 224);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.maincontent .nav {
+}
+.maincontent .nav ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  display: flex; /* Display list items horizontally */
+  font-weight: 500;
+}
+.maincontent .nav li {
+  padding: 10px 10px;
+}
+.maincontent .nav a {
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px rgb(88, 88, 116);
+  padding: 5px;
+  background-color: white;
+  text-decoration: none;
+  color: var(--light-color-nav);
+}
+/* Style navigation links on hover */
+.maincontent .nav a:hover {
+  border-radius: 5px;
+  color: blue;
+}
+
+.newslist {
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto a new row */
+  justify-content: space-between; /* Distribute items evenly with space between them */
+}
+.news {
+  flex: 0 1 calc(25% - 20px); /* Set each item to occupy 25% of the container's width (minus margins) */
+  margin: 5px; /* Add margin for spacing between items */
+  background-color: #ccc; /* Optional styling */
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(33, 33, 46);
+}
+.news img {
+  width: 100%;
+  height: 150px;
+}
+.morenews {
+  background-color: ;
+  color: ;
+}
+.morenews12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin: 2px;
+  border: ;
+  box-shadow: 0px 0px 5px rgb(41, 41, 58);
+  height: 100px;
+}
+
+/*  JOBINSON AI IN NEWS SITE */
+
+.joebot {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#3498db, blue);
+  border-radius: 50%;
+  position: fixed;
+  top: 50%;
+  right: 15px;
+  animation: headAnimation 2s infinite alternate;
+}
+.joebot-text {
+  font-weight: bold;
+  color: white;
+  height: 30px;
+  width: 100%;
+  top: 4px;
+  right: 0;
+  text-shadow: 0 0 4px black;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 105px 105px 0 0;
+  overflow: hidden;
+  background-color: ;
+}
+.joebot-head {
+}
+/*semicircle was not used*/
+.semicircle {
+  width: 100px; /* Set the width of the semicircle */
+  height: 50px; /* Set half of the desired height of the semicircle */
+  background-color: #3498db; /* Set the background color */
+  border-radius: 0 0 100px 100px; /* Create a semicircle by using border-radius */
+  overflow: hidden; /* Hide the overflowing part of the circle */
+}
+.joebot-eye {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.joebot-eye::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: eyeanimation 2s infinite alternate;
+}
+.joebot-mouth {
+  position: absolute;
+  height: 5px;
+  border-radius: 50%;
+  width: 30px;
+  left: 40%;
+  bottom: 25%;
+  border-bottom: 3px solid black;
+}
+@keyframes headAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+/*  JOEBOT BUILDING */
+
+/* =========     FOOTER   ===========  */
+
+.footer {
+  background: linear-gradient(rgb(45, 45, 74), rgb(27, 27, 84));
+  width: 100%;
+}
+.footer .row1 {
+  /* I am not currently working on it */
+}
+.footer .row2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  /*  for the line spacing up */
+  margin-bottom: 10px;
+}
+.footer .col {
+  flex: 0 1 calc(25% - 20px); /* Set each item to occupy 25% of the container's width (minus margins) */
+  margin: 5px; /* Add margin for spacing between items */
+  background-color: #ccc; /* Optional styling */
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(33, 33, 46);
+}
+.footer-line {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 1px;
+}
+.footer-sponsor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* for the line upward */
+  margin-top: 10px;
+}
+/* ===  Responsiveness === */

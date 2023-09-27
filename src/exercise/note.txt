@@ -1,0 +1,95 @@
+            PROOJECT ANALYSIS
+1. a news application.
+2. gets its info using an external application
+3. chatGTP or alen ai voice sysntehsis
+4. Their is a moment js to determin current time 
+5. It has buttons to view click to readMore
+
+==> 
+1 Read about color combination 
+
+COLOR 
+* navy and teal
+
+
+MOST USED GOOGLE FONTS
+*roboto
+*open sans
+*lato
+*montserrat 
+*poppins 
+*nunito 
+
+
+  CSS
+=> Global Css
+/* global-variables.css */
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --font-family: 'Arial', sans-serif;
+}
+
+/* global.css */
+
+:root {
+  --primary-color: #0073e6;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+
+=> MEDIA QUERY
+-> Basic media query syntax
+/* This CSS rule applies when the viewport width is 600px or wider */
+@media screen and (min-width: 600px) {
+  /* Your CSS styles for screens wider than 600px go here */
+}
+
+/* This CSS rule applies when the viewport width is 900px or narrower */
+@media screen and (max-width: 900px) {
+  /* Your CSS styles for screens narrower than 900px go here */
+}
+
+
+-> Combining media query conditions
+/* This CSS rule applies when the viewport width is between 600px and 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  /* Your CSS styles for screens between 600px and 900px go here */
+}
+
+
+->Using media query for different devices.
+/* This CSS rule applies when the device is in landscape orientation */
+@media screen and (orientation: landscape) {
+  /* Your CSS styles for landscape orientation go here */
+}
+
+/* This CSS rule applies when the device has a high-resolution display (Retina) */
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Your CSS styles for high-resolution displays go here */
+}
+
+
+->applying media queries to print styles
+/* This CSS rule applies when the document is printed */
+@media print {
+  /* Your CSS styles for printed documents go here */
+}
+
+
+-> combining media queries for complex conditions
+/* This CSS rule applies when the viewport width is between 600px and 900px
+   AND the device is in landscape orientation */
+@media screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
+  /* Your CSS styles for this combination of conditions go here */
+}

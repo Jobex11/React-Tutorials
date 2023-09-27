@@ -1,0 +1,4 @@
+1. installed spinner as loaders in my file
+[npm install react-spinners]
+2. installed emotion 
+[npm install @emotion/react @emotion/styled]
