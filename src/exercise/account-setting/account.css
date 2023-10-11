@@ -1,0 +1,199 @@
+/*
+====
+IMPORTATION OF FILES TO CSS
+=====
+*/
+/*
+=======
+GLOBAL VARIABLES
+=======
+*/
+:root {
+  --bg-clr: rgb(241, 241, 255);
+  --clr: rgb(65, 65, 81);
+  --btn: ;
+}
+/*
+=======
+GLOBAL STYLES
+=======
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg-clr);
+  color: var(--clr);
+  font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+}
+div {
+  width: inherit;
+  border-radius: 8px;
+  box-shadow: 0px 0px 3px rgb(41, 41, 59);
+  display: flex;
+  background-color: rgb(246, 246, 250);
+}
+.aside {
+  background-color: rgb(60, 60, 130);
+  color: white;
+}
+section {
+  padding: 10px;
+}
+article {
+  width: 60%;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+main {
+}
+h1 {
+  font-size: ;
+  font-family: ;
+  font-weight: ;
+}
+h2 {
+  font-size: ;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: ;
+  font-family: ;
+  font-weight: ;
+}
+
+h4 {
+  font-size: ;
+  font-family: ;
+  font-weight: ;
+}
+h6 {
+  font-size: ;
+  font-family: ;
+  font-weight: ;
+}
+
+/*
+=======
+CLASS STYLES
+=======
+*/
+.aside {
+  border-radius: 8px 0 0 8px;
+  padding: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  padding: ;
+}
+li {
+  padding-right: 10px;
+}
+a {
+}
+a:hover {
+}
+.underline {
+  height: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: inset 0px 0px 1px rgb(64, 62, 62);
+}
+.navbar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+}
+.profile {
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/*
+========
+rows and columns
+========
+*/
+.row1 {
+}
+.row2 {
+  display: inline-flex;
+}
+.row3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  flex-wrap: wrap;
+  width: 20%;
+  height: 6rem;
+}
+.col2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.upload-profile {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+.del-profile {
+  border-radius: 8px;
+  background-color: red;
+  padding: 5px;
+  color: white;
+}
+
+/*
+=======
+RESPONSIVENESS
+=======
+*/
+/*
+=======
+GLOBAL VARIABLES
+=======
+*/

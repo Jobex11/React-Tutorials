@@ -1,0 +1,43 @@
+In the account settings of a quiz application, you typically need to collect and manage user-related data to provide a personalized and secure experience. Here's a list of common data fields and settings you might include in an account settings page for a quiz application:
+
+1. **Username**: Allowing users to set and change their username for display and identification purposes.
+
+2. **Email**: Storing and updating the user's email address for communication and account recovery.
+
+3. **Password**: Enabling users to change their account password for security reasons.
+
+4. **Profile Picture**: Allowing users to upload or change their profile picture or avatar.
+
+5. **Personal Information**: Collecting optional personal information like name, age, gender, etc., to personalize the user experience.
+
+6. **Notification Preferences**: Providing options to customize notification settings, including email, push notifications, or in-app notifications.
+
+7. **Privacy Settings**: Options to control the visibility of the user's profile and quiz activity, such as public, private, or friends-only settings.
+
+8. **Quiz Preferences**: Customizing quiz-related settings, such as preferred categories, difficulty levels, or question types.
+
+9. **Account Deactivation/Deletion**: Options to deactivate or permanently delete the account.
+
+10. **Two-Factor Authentication (2FA)**: Enabling or disabling 2FA for added security.
+
+11. **Email Verification**: Allowing users to verify or re-verify their email address.
+
+12. **Password Reset**: Providing a way for users to reset their password if they forget it.
+
+13. **Connected Social Media Accounts**: If the app supports social media integration, users may need options to connect or disconnect their social accounts.
+
+14. **Activity Log**: Displaying the user's recent quiz activity and results.
+
+15. **Subscription or Payment Information**: If your quiz app offers premium features, managing subscription or payment information may be necessary.
+
+Remember to handle user data with care, follow relevant data privacy regulations (e.g., GDPR, CCPA), and provide options for users to manage their data and privacy settings.
+
+The specific data and settings you include in your quiz application's account settings may vary based on your app's functionality and user preferences. Always prioritize user privacy and data security when implementing these features.
+
+
+=======
+CSS STYLING TECHNIQUES
+=======
+
+making a horizontal tables
+* display: inline-flex;
