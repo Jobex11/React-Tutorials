@@ -23,12 +23,17 @@ const Main = () => {
             <li>
               <h5>Subscription</h5>
             </li>
+            <li>
+              <h5>Activity log</h5>
+            </li>
           </ul>
         </section>
         <main className="underline"></main>
         {/* asidebar */}
         <section className="info">
-          <article className="profile">
+          {/* PROFILE DETAILS  */}
+          <main></main>
+          <article className="profile vertical">
             <main className="row1">
               <h4>Profile Details</h4>
             </main>
@@ -51,14 +56,47 @@ const Main = () => {
                   Allowed files .png and .jpg
                 </h6>
               </main>
-              <main className="row"></main>
             </main>
             <main className="row3">
-              Username
-              <input placeholder="jobinson" />
-              Email
-              <input placeholder="joblawal33@gmail.com" />
+              <main className="col">
+                <h5>Username</h5>
+                <input placeholder="jobinson" />
+              </main>
+              <main className="col">
+                <h5> Email </h5>
+                <input placeholder="joblawal33@gmail.com" />
+              </main>
             </main>
+          </article>
+          {/* QUIZ PREFERENCE */}
+          {/* TO CONNECT TO SOCIAL MEDIA */}
+          <article className="connect-media vertical">
+            <main className="row1">
+              <h4>Connect Account</h4>
+            </main>
+            <main className="row2">
+              <h6>
+                You can connect your profile to any of social media account. Get
+                notified by just one button.
+              </h6>
+            </main>
+            <main className="row3">
+              <button>Connect</button>
+            </main>
+          </article>
+          {/*  CHANGE PASSWORD */}
+          <article className="reset-password  horizontal">
+            <main>
+              <h4>Reset password</h4>
+            </main>
+            <main>
+              <h5>You can change</h5>
+            </main>
+            <main></main>
+          </article>
+          {/*  CLOSE ACCOUNT */}
+          <article className="close-account horizontal">
+            <main></main>
           </article>
         </section>
         {/* main */}

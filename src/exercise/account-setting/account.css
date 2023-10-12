@@ -33,8 +33,9 @@ body {
 }
 div {
   width: inherit;
+  height: inherit;
   border-radius: 8px;
-  box-shadow: 0px 0px 3px rgb(41, 41, 59);
+  box-shadow: 0px 0px 3px rgb(181, 181, 188);
   display: flex;
   background-color: rgb(246, 246, 250);
 }
@@ -47,7 +48,7 @@ section {
 }
 article {
   width: 60%;
-  padding: 20px;
+  padding: 15px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -133,7 +134,7 @@ a:hover {
 }
 .profile {
 }
-img {
+.profile img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -144,47 +145,108 @@ img {
 rows and columns
 ========
 */
-.row1 {
+.profile .row1 {
+  margin-bottom: 5px;
 }
-.row2 {
+.profile .col2 button {
+  margin-right: 20px;
+}
+.profile .row2 {
   display: inline-flex;
 }
-.row3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.profile .row2 h6 {
+  color: rgb(158, 167, 166);
 }
-.col1 {
+.profile .row3 {
+  display: inline-flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5px;
+}
+.profile .row3 input {
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 5px;
+  outline: none;
+  border: 2px solid rgba(229, 230, 234, 0.744);
+}
+.profile .col1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #ccc;
   flex-wrap: wrap;
   width: 20%;
   height: 6rem;
 }
-.col2 {
+.profile .col2 {
   display: flex;
   justify-content: left;
   align-items: center;
-  padding: 5px;
-  border: 1px solid #ccc;
+  padding: 10px;
   flex-wrap: wrap;
   width: 70%;
 }
-
-.upload-profile {
+.profile .col {
+  margin-right: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.profile .row1 h4 {
+  font-weight: normal;
+}
+.profile .col h5 {
+  color: ;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: rgb(65, 63, 63);
+  font-family: verdana;
+}
+.profile .upload-profile {
   padding: 5px;
-  background-color: blue;
-  color: white;
+  color: rgb(54, 128, 212);
+  font-weight: bold;
+  border: 2px solid rgba(240, 234, 234, 0.93);
   border-radius: 8px;
 }
-.del-profile {
+.profile .del-profile {
   border-radius: 8px;
-  background-color: red;
+  background-color: white;
   padding: 5px;
-  color: white;
+  border: 2px solid rgb(54, 128, 212);
+  color: rgb(54, 128, 212);
+  font-weight: bold;
+}
+.profile .col::placeholder {
+  color: rgba(240, 234, 234, 0.942); /* Change the color to red */
+}
+
+/*
+connect account
+*/
+.connect-media h5 {
+  color: rgb(193, 193, 203);
+  font-weight: bold;
+  width: 100%;
+}
+.connect-media .row1 {
+  margin-bottom: 10px;
+}
+.connect-media .row3 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: right;
+  align-content: center;
+}
+.connect-media button {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 40%;
+  margin: 10px;
+  border: none;
+  color: rgb(54, 128, 212);
 }
 
 /*

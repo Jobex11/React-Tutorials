@@ -40,4 +40,10 @@ CSS STYLING TECHNIQUES
 =======
 
 making a horizontal tables
-* display: inline-flex;
+* display: inline-flex; 
+
+to  change the color of the placeholder
+* 
+
+*
+
