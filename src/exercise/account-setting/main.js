@@ -10,7 +10,7 @@ const Main = () => {
           <i class="fa fa-book" aria-hidden="true"></i>
         </h2>
       </main>
-      <main className="main">
+      <main className="content">
         {/* navbar */}
         <section className="navbar">
           <h2>Acount settings</h2>
@@ -26,13 +26,15 @@ const Main = () => {
             <li>
               <h5>Activity log</h5>
             </li>
+            <li>
+              <h5>Reset account</h5>
+            </li>
           </ul>
         </section>
         <main className="underline"></main>
         {/* asidebar */}
-        <section className="info">
+        <section className="info container">
           {/* PROFILE DETAILS  */}
-          <main></main>
           <article className="profile vertical">
             <main className="row1">
               <h4>Profile Details</h4>
@@ -90,12 +92,20 @@ const Main = () => {
               <h4>Reset password</h4>
             </main>
             <main>
-              <h5>You can change</h5>
+              <h5>
+                You can change can change your password. By just clicking on the
+                button below.
+              </h5>
             </main>
-            <main></main>
+            <main>
+              <button>Change password</button>
+            </main>
           </article>
           {/*  CLOSE ACCOUNT */}
           <article className="close-account horizontal">
+            <main>
+              <h4></h4>
+            </main>
             <main></main>
           </article>
         </section>

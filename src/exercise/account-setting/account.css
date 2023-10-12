@@ -96,7 +96,7 @@ CLASS STYLES
   border-radius: 8px 0 0 8px;
   padding: 10px;
 }
-.main {
+.content {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -249,6 +249,26 @@ connect account
   color: rgb(54, 128, 212);
 }
 
+/*
+Testing
+*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vertical {
+  width: 65%;
+}
+
+.horizontal {
+  /* Set the height as needed */
+  width: 30%;
+}
+
+/* RESET PASSWORD*/
 /*
 =======
 RESPONSIVENESS
