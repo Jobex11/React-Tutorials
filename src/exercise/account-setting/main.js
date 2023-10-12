@@ -88,16 +88,16 @@ const Main = () => {
           </article>
           {/*  CHANGE PASSWORD */}
           <article className="reset-password  horizontal">
-            <main>
+            <main className="row1">
               <h4>Reset password</h4>
             </main>
-            <main>
-              <h5>
+            <main className="row2">
+              <h6>
                 You can change can change your password. By just clicking on the
                 button below.
-              </h5>
+              </h6>
             </main>
-            <main>
+            <main className="row3">
               <button>Change password</button>
             </main>
           </article>

@@ -259,6 +259,37 @@ Testing
   justify-content: space-between;
 }
 
+/*
+RESET PASSWORD
+*/
+.connect-media h5 {
+  color: rgb(193, 193, 203);
+  font-weight: bold;
+  width: 100%;
+}
+.reset-password .row1 {
+  margin-bottom: 10px;
+}
+.reset-password .row3 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: right;
+  align-content: center;
+}
+.reset-password button {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 40%;
+  margin: 10px;
+  border: none;
+  color: rgb(54, 128, 212);
+}
+
+/*
+TESTING A CHANGE IN UI
+*/
 .vertical {
   width: 65%;
 }
@@ -268,7 +299,6 @@ Testing
   width: 30%;
 }
 
-/* RESET PASSWORD*/
 /*
 =======
 RESPONSIVENESS
