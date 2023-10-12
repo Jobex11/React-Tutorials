@@ -33,7 +33,7 @@ body {
 }
 div {
   width: inherit;
-  height: inherit;
+  height: 90vh;
   border-radius: 8px;
   box-shadow: 0px 0px 3px rgb(181, 181, 188);
   display: flex;
@@ -57,8 +57,10 @@ article {
   border-radius: 10px;
   margin-top: 10px;
 }
-main {
+button {
+  cursor: pointer;
 }
+
 h1 {
   font-size: ;
   font-family: ;
@@ -100,6 +102,7 @@ CLASS STYLES
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: auto;
   padding: 20px;
 }
 .header {
@@ -281,9 +284,9 @@ RESET PASSWORD
   font-size: 15px;
   font-weight: bold;
   border-radius: 10px;
-  width: 40%;
-  margin: 10px;
+  width: 100%;
   border: none;
+  margin-top: 10px;
   color: rgb(54, 128, 212);
 }
 
