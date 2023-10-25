@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "./exercise/account-setting/main";
+import Main from "./exercise/Tab/main";
 function App() {
   return (
     <div className="container">
