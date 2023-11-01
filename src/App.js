@@ -1,5 +1,6 @@
 import React from "react";
-import Main from "./exercise/Tab/main";
+import "./index.css";
+import Main from "./exercise/Slider/main";
 function App() {
   return (
     <div className="container">

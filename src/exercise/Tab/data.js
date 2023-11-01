@@ -1,4 +1,4 @@
-[
+const jobs = [
   {
     id: "recAGJfiU4CeaV0HL",
     order: 3,
@@ -37,3 +37,4 @@
     company: "CUKER",
   },
 ];
+export default jobs;

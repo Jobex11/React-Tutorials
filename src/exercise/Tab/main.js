@@ -1,22 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import { FaAngleDoubleRight } from "react-icons/fa";
 import "./tab.css";
+import jobs from "./data"; // Import data from your local file
 
-const url = "https://course-api.com/react-tabs-project";
-const Main = () => {
-  const [loading, setLoading] = useState(true);
-  const [jobs, setJobs] = useState([]);
+function Main() {
+  const [loading, setLoading] = useState(false); // No need for initial loading state
   const [value, setValue] = useState(0);
 
-  const fetchJobs = async () => {
-    const response = await fetch(url);
-    const newJobs = await response.json();
-    setJobs(newJobs);
-    setLoading(false);
-  };
-
-  useEffect(() => {
-    fetchJobs();
-  }, []);
+  // No need for fetching data using useEffect
 
   if (loading) {
     return (
@@ -49,8 +40,7 @@ const Main = () => {
             );
           })}
         </div>
-
-        {/*  job info */}
+        {/* job info */}
         <article className="job-info">
           <h3>{title}</h3>
           <h4>{company}</h4>
@@ -58,7 +48,7 @@ const Main = () => {
           {duties.map((duty, index) => {
             return (
               <div key={index} className="job-desc">
-                {/*  faAndloe double */}
+                <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight>
                 <p>{duty}</p>
               </div>
             );
@@ -70,6 +60,6 @@ const Main = () => {
       </button>
     </section>
   );
-};
+}
 
 export default Main;
